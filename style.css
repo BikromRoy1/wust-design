@@ -1,0 +1,83 @@
+.page-section-title {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.page-section-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2347a7;
+}
+
+.page-section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.page-section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #ffc107;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.common-page-section-heading {
+  font-size: 26px;
+  font-weight: 500;
+  color: #2347a7;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.common-page-section-heading:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffc107;
+  left: 0;
+  bottom: 0;
+  
+}
+
+.page-blog-section-heading {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.page-blog-section-heading h2 {
+   font-size: 27px;
+  font-weight: 500;
+  color: #2347a7;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.page-blog-section-heading h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ffc107;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
