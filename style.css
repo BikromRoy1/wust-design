@@ -81,3 +81,23 @@
   bottom: 0;
   margin: auto;
 }
+
+.containers {
+  position: relative;
+  overflow-y: auto;
+  height: 400px; /* set the height of the container as desired */
+}
+
+.fixed-content {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* set the background color of the fixed content */
+  padding: 20px; /* set padding for spacing */
+  z-index: 1; /* set z-index to ensure fixed content appears above scrollable content */
+}
+
+.scroll-content {
+  /* set the styles for the scrollable content */
+  height: 1000px; /* set height or add enough content to enable scrolling */
+}
+
