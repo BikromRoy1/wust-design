@@ -220,8 +220,18 @@
   &:hover {
     color: blue;
   }
-  
+
   &:focus {
     border: 1px solid black;
   }
+}
+
+/* PUblication */
+.Published-title::after {
+  content: '';
+  width: 50px;
+  height: 1px;
+  display: block;
+  background-color: #ffc107;
+  margin-top: 0.2rem;
 }
